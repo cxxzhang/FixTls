@@ -24,6 +24,21 @@ int main()
 
 	if (test_tls_add)
 	{
+		{
+			int aaa = 1;
+			std::cout << "FixTls 01-->" << aaa << std::endl;
+
+			aaa = test_tls_add(aaa, aaa);
+
+			std::cout << "FixTls 02-->" << aaa << std::endl;
+
+			aaa = 1;
+			aaa = test_tls_add(aaa, aaa);
+
+			std::cout << "FixTls 03-->" << aaa << std::endl;
+		}
+	
+
 		for (size_t i = 0; i < 5; i++)
 		{
 			std::thread([&] {
