@@ -1,0 +1,6 @@
+[submodule "third_party/MINT"]
+	path = third_party/MINT
+	url = https://github.com/Chuyu-Team/MINT.git
+[submodule "third_party/DetoursEx"]
+	path = third_party/DetoursEx
+	url = https://github.com/cxxzhang/DetoursEx.git
