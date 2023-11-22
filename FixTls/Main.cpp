@@ -12,10 +12,10 @@ pnf_test_tls_add test_tls_add = nullptr;
 int main()
 {
 	std::cout << "FixTls Start!" << std::endl;
-
-	HMODULE hd = LoadLibraryW(L"TlsDllForTest.dll");
+	
 	FixTls();
-
+	HMODULE hd = LoadLibraryW(L"TlsDllForTest.dll");
+	
 
 	if (hd)
 	{
